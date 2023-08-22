@@ -1,8 +1,10 @@
 import React from 'react';
 import {Text} from 'react-native';
+import { MapComponent } from './src/components/MapComponent';
 
 const App = () => {
-  return <Text>Hellow react_project </Text>;
+  return <MapComponent/>
+
 };
 
 export default App;
