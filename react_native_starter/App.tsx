@@ -1,10 +1,8 @@
 import React from 'react';
-import {Text} from 'react-native';
-import { MapComponent } from './src/components/MapComponent';
+import MapComponent from './src/components/Map/MapComponent';
 
 const App = () => {
-  return <MapComponent/>
-
+  return <MapComponent />;
 };
 
 export default App;
